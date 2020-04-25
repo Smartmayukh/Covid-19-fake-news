@@ -1,0 +1,98 @@
+.container {
+  height: 80px;
+  overflow: hidden;
+}
+
+.range {
+  width: 200px;
+}
+
+.range span {
+  height: 20px;
+  display: inline-block;
+  width: calc(100% / 6);
+}
+
+.range:before {
+  content: "Unaware";
+  display: inline-block;
+  position: absolute;
+  margin-top: -22px;
+  font-size: 0.9em;
+}
+
+.range:after {
+  content: "Aware";
+  display: inline-block;
+  position: absolute;
+  margin-top: -22px;
+  width: 40px;
+  margin-left: -40px;
+  font-size: 0.9em;
+}
+
+.helpText {
+  color: gray;
+  font-size: 0.8em;
+}
+
+.slider {
+  width: 200px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.stats {
+  float: right;
+  width: 120px;
+  font-size: 1em;
+  margin-right: 150px;
+  border-left: 1px solid #dedede;
+  padding-left: 30px;
+}
+
+.settings {
+  float: right;
+  margin-right: 40px;
+}
+
+.forwarded .icon {
+  background: #EC7B61;
+}
+
+.ignored .icon {
+  background: #e5e5e5;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 0.9em;
+  position: absolute;
+}
+
+.description {
+  font-size: 1em;
+  float: right;
+  width: 400px;
+  margin-left: 2px;
+  margin-top: 2px;
+  position: absolute;
+}
+
+.button {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.description p {
+  margin: 0;
+  padding: 0;
+}

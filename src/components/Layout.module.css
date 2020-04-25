@@ -1,0 +1,8 @@
+:global(body) {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
